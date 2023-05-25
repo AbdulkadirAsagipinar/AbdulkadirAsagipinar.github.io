@@ -2,13 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Abdulkadir Aşağıpınar</title>
+        <title>Abdulkadir Aşağıpınar</title>       
     </head>
     <body>
-
-    <h1>Abdulkadir Aşağıpınar (30)</h1>
+   
+    <h1 id="firstly"></h1>
+    <p>Electronic Engineer</p>
      
-    <p>Electronic engineer</p>    
+    <script>
+       let nameSurname = "Abdulkadir Aşağıpınar";
+       let age = new Date().getFullYear() - 1992;
+       document.getElementById("firstly").innerHTML = nameSurname + " (" + age + ")";
+     </script>
     
     </body>
 </html>
